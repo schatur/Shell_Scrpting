@@ -1,0 +1,12 @@
+Write a script intended to iterate through an array called SERVERLIST containing at least four values (server names). 
+Display all four values to the terminal when run.
+----------------------------------->
+#!/bin/bash
+
+serverlist=(Dev Test Prod UAT )
+echo "${serverlist[0]}"
+echo "${serverlist[1]}"
+echo "${serverlist[2]}"
+echo "${serverlist[3]}"
+
+-------------------------------------->
